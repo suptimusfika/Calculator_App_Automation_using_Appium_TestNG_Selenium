@@ -4,9 +4,7 @@ I have created a Calculator App Automation Project using Appium, TestNG and Sele
 ## Scenario
 Automate any series for calculator app. Pass the series as a parameter to your test method.
 For an example:
-- 100/10*5-10+60
-or
-- 50+10-20*2+10/2
+- 100/10*5-10+60 or 50+10-20*2+10/2
 
 ## How to run this project
 - clone this project
