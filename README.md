@@ -4,13 +4,27 @@ I have created a Calculator App Automation Project using Appium, TestNG and Sele
 ## Scenario
 Automate any series for calculator app. Pass the series as a parameter to your test method.
 For an example:
-
-100/10*5-10+60
+- 100/10*5-10+60
 or
-50+10-20*2+10/2
+- 50+10-20*2+10/2
 
 ## How to run this project
 - clone this project
+- Open this project in Intellij Idea
+- Start Appium Server with this command in the command prompt:  
+  ```Appium```  
+- For checking the connectivity of device, give this command in command prompt:
+  ```adb devices```
+- Open Appium Inspector
+- Set desired capabilites:  
+  {  
+    "platformName": "Android",  
+    "appium:platformVersion": "13",  
+    "appium:appPackage": "com.miui.calculator",  
+    "appium:appActivity": "com.miui.calculator.cal.CalculatorActivity",  
+    "appium:app": "D:\\Apk\\CalculatorNew.apk"  
+  }  
+- In intellij Idea terminal-
 - To run suite, hit this command ```gradle clean test```
 - To generate allure report hit these command  
   ```allure generate allure-results --clean -output```  
@@ -20,7 +34,7 @@ or
 - Appium
   
 ## Tools Used
-- Intellij
+- Intellij Idea
 - Jdk-11
 - Selenium
 - Allure
