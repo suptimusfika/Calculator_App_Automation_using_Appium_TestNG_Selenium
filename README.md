@@ -34,6 +34,8 @@ https://github.com/suptimusfika/Calculator_App_Automation_using_Appium_TestNG_Se
 
 ## Allure Report Image: 
 
+### Report Summary:
 ![1](https://github.com/suptimusfika/Calculator_App_Automation_using_Appium_TestNG_Selenium/assets/48064134/eaf77b48-e116-43b5-9799-1ecf24271493)
 
+### Behaviour:
 ![2](https://github.com/suptimusfika/Calculator_App_Automation_using_Appium_TestNG_Selenium/assets/48064134/1e3b4ca7-86a3-4be6-a7d9-2668f2cb68c6)
